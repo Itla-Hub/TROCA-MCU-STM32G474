@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -132,7 +138,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -180,7 +186,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +216,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.4
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -613,6 +631,38 @@
     [
       "b1d40f64-fdd9-4649-a865-fdacc59f4cb2",
       "Root"
+    ],
+    [
+      "ef3eda14-bdd7-4e3b-a7ac-79939592f090",
+      "VNH7040AY"
+    ],
+    [
+      "b533b138-6248-46d7-a940-2181c143c3c9",
+      "VNH7040AY1"
+    ],
+    [
+      "cad5f35e-74e2-481a-8dc6-b4d8676c255c",
+      "VNH7040AY2"
+    ],
+    [
+      "a0bb0937-c222-4043-8f2f-5c0d69563f1f",
+      "VNH7040AY3"
+    ],
+    [
+      "453a45d7-71eb-43b2-9d4e-84a872491fd2",
+      "VNH7040AY4"
+    ],
+    [
+      "edc67735-262e-441c-a501-7e849ca26b1a",
+      "VNH7040AY5"
+    ],
+    [
+      "da9723f7-dd8a-4565-ba1b-c95a500212cf",
+      "VNH7040AY6"
+    ],
+    [
+      "be444bfd-09e6-4fa0-8892-a4f47161844e",
+      "VNH7040AY7"
     ]
   ],
   "text_variables": {}
